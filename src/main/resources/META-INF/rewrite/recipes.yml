@@ -1,0 +1,3 @@
+recipes:
+  - com.gar.mytestrecipe.recipes.UpgradeLombokRecipe
+  - com.gar.mytestrecipe.recipes.ConvertPojoToRecordRecipe

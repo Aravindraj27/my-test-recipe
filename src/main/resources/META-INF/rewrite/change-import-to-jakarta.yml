@@ -1,0 +1,7 @@
+type: specs.openrewrite.org/v1beta/recipe
+name: com.gar.example
+description: Convert Javax to Jakarta.
+recipeList:
+  - org.openrewrite.java.ChangePackage:
+      oldPackageName: org.javax.*
+      newPackageName: org.jackson.*
